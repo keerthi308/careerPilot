@@ -91,3 +91,4 @@ function resetQuiz() {
         input.checked = false;
     });
 }
+
