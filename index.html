@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CareerPilot | Find Your Career Path</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🚀 CareerPilot
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#assessment">Assessment</a>
+            <a href="#roadmaps">Roadmaps</a>
+            <a href="#skills">Skills</a>
+            <a href="#internships">Internships</a>
+        </nav>
+
+        <button class="nav-btn" onclick="startAssessment()">
+            Start Assessment
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <span class="badge">
+                ✨ Smart Career Guidance for Students
+            </span>
+
+            <h1>
+                Discover the
+                <span>Career Path</span>
+                That's Right for You
+            </h1>
+
+            <p>
+                Explore careers, identify your strengths, discover
+                skill gaps and build a personalized roadmap for your future.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn" onclick="startAssessment()">
+                    🎯 Find My Career
+                </button>
+
+                <a href="#roadmaps" class="secondary-btn">
+                    Explore Roadmaps
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="profile-icon">
+                🎓
+            </div>
+
+            <h3>Your Career Journey</h3>
+
+            <div class="progress-row">
+                <span>Career Discovery</span>
+                <strong>80%</strong>
+            </div>
+
+            <div class="progress">
+                <div style="width:80%"></div>
+            </div>
+
+            <div class="progress-row">
+                <span>Skill Development</span>
+                <strong>60%</strong>
+            </div>
+
+            <div class="progress">
+                <div style="width:60%"></div>
+            </div>
+
+            <div class="progress-row">
+                <span>Career Readiness</span>
+                <strong>45%</strong>
+            </div>
+
+            <div class="progress">
+                <div style="width:45%"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="section">
+
+        <div class="section-title">
+
+            <span>WHAT WE OFFER</span>
+
+            <h2>
+                Everything You Need to
+                <span>Plan Your Career</span>
+            </h2>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Career Assessment</h3>
+                <p>
+                    Discover careers that match your interests,
+                    strengths and preferences.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">🧭</div>
+                <h3>Career Roadmaps</h3>
+                <p>
+                    Follow structured learning paths to reach
+                    your desired career.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Skill Gap Analysis</h3>
+                <p>
+                    Understand which skills you already have
+                    and what you need to improve.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">💼</div>
+                <h3>Opportunities</h3>
+                <p>
+                    Discover internships, workshops and
+                    career-building opportunities.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ASSESSMENT -->
+
+    <section id="assessment" class="assessment-section">
+
+        <div class="section-title">
+
+            <span>CAREER ASSESSMENT</span>
+
+            <h2>
+                Find Your Best
+                <span>Career Match</span>
+            </h2>
+
+            <p>
+                Answer a few simple questions and discover
+                careers that may suit your interests.
+            </p>
+
+        </div>
+
+
+        <div class="quiz-card">
+
+            <div id="quiz">
+
+                <div class="question">
+
+                    <h3>
+                        What type of work do you enjoy most?
+                    </h3>
+
+                    <label>
+                        <input type="radio" name="q1" value="technology">
+                        Building technology and solving technical problems
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="analysis">
+                        Analyzing information and finding insights
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="business">
+                        Planning, communication and business decisions
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="creative">
+                        Designing and creating new ideas
+                    </label>
+
+                </div>
+
+
+                <div class="question">
+
+                    <h3>
+                        What is your strongest quality?
+                    </h3>
+
+                    <label>
+                        <input type="radio" name="q2" value="technology">
+                        Logical thinking
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="analysis">
+                        Analytical thinking
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="business">
+                        Communication
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="creative">
+                        Creativity
+                    </label>
+
+                </div>
+
+
+                <div class="question">
+
+                    <h3>
+                        What kind of environment do you prefer?
+                    </h3>
+
+                    <label>
+                        <input type="radio" name="q3" value="technology">
+                        Technology-focused
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="analysis">
+                        Research and data
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="business">
+                        Team and business
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="creative">
+                        Creative and flexible
+                    </label>
+
+                </div>
+
+
+                <button class="primary-btn" onclick="calculateCareer()">
+                    🔍 Analyze My Career
+                </button>
+
+            </div>
+
+
+            <div id="result" class="result hidden">
+
+                <div class="result-icon">
+                    🎉
+                </div>
+
+                <h2>Your Career Match</h2>
+
+                <h1 id="careerName"></h1>
+
+                <p id="careerDescription"></p>
+
+                <div class="match-box">
+                    <span>Career Match</span>
+                    <strong>85%</strong>
+                </div>
+
+                <button class="secondary-btn" onclick="resetQuiz()">
+                    Take Again
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ROADMAPS -->
+
+    <section id="roadmaps" class="section">
+
+        <div class="section-title">
+
+            <span>CAREER ROADMAPS</span>
+
+            <h2>
+                Choose Your
+                <span>Career Path</span>
+            </h2>
+
+        </div>
+
+
+        <div class="roadmap-grid">
+
+            <div class="roadmap-card">
+                <span>🤖</span>
+                <h3>AI & Machine Learning</h3>
+                <p>Python → ML → Deep Learning → AI Projects</p>
+                <button>View Roadmap →</button>
+            </div>
+
+
+            <div class="roadmap-card">
+                <span>📊</span>
+                <h3>Data Analyst</h3>
+                <p>Excel → SQL → Power BI → Data Analytics</p>
+                <button>View Roadmap →</button>
+            </div>
+
+
+            <div class="roadmap-card">
+                <span>💼</span>
+                <h3>Business Analyst</h3>
+                <p>Business → Excel → SQL → Power BI → Analytics</p>
+                <button>View Roadmap →</button>
+            </div>
+
+
+            <div class="roadmap-card">
+                <span>☁️</span>
+                <h3>Cloud Computing</h3>
+                <p>Networking → Linux → Cloud → DevOps</p>
+                <button>View Roadmap →</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="skills-section">
+
+        <div class="section-title">
+
+            <span>SKILL DEVELOPMENT</span>
+
+            <h2>
+                Understand Your
+                <span>Skill Gap</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-card">
+
+            <div class="skill">
+
+                <div>
+                    <span>Communication</span>
+                    <strong>85%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div style="width:85%"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div>
+                    <span>Problem Solving</span>
+                    <strong>75%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div style="width:75%"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div>
+                    <span>SQL</span>
+                    <strong>55%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div style="width:55%"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div>
+                    <span>Data Analysis</span>
+                    <strong>45%</strong>
+                </div>
+
+                <div class="skill-bar">
+                    <div style="width:45%"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTERNSHIPS -->
+
+    <section id="internships" class="section">
+
+        <div class="section-title">
+
+            <span>OPPORTUNITIES</span>
+
+            <h2>
+                Build Your
+                <span>Experience</span>
+            </h2>
+
+        </div>
+
+
+        <div class="opportunity-grid">
+
+            <div class="opportunity-card">
+                <span>🚀</span>
+                <h3>AI Workshops</h3>
+                <p>Learn modern AI technologies through practical workshops.</p>
+                <button>Explore</button>
+            </div>
+
+
+            <div class="opportunity-card">
+                <span>🏆</span>
+                <h3>Hackathons</h3>
+                <p>Build projects and solve real-world problems.</p>
+                <button>Explore</button>
+            </div>
+
+
+            <div class="opportunity-card">
+                <span>💼</span>
+                <h3>Internships</h3>
+                <p>Find opportunities to gain practical industry experience.</p>
+                <button>Explore</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>🚀 CareerPilot</h2>
+
+        <p>
+            Helping students make smarter career decisions.
+        </p>
+
+        <p class="copyright">
+            © 2026 CareerPilot. Built as a student project.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
